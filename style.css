@@ -1,3 +1,15 @@
+:root {
+  --primary-green: hsl(160deg, 100%, 30%);
+  --light-gold: hsl(45deg, 100%, 50%);
+  --dark-gold: hsl(45deg, 100%, 40%);
+  --black: hsl(0deg, 0%, 0);
+  --gray-1: hsl(0deg, 0%, 10%);
+  --gray-2: hsl(0deg, 0%, 30%);
+  --gray-3: hsl(0deg, 0%, 40%);
+  --gray-4: hsl(0deg, 0%, 60%);
+  --white: hsl(0deg, 0%, 100%);
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
@@ -9,4 +21,52 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+body {
+  line-height: 1.5;
+}
+
+header, section {
+  border-bottom: 8px solid var(--gray-3);
+}
+
+main {
+  background-color: var(--gray-4);
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+strong {
+  color: var(--primary-green);
+}
+
+.max-width-wrapper {
+  max-width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-chunk {
+  padding: 48px 16px 32px;
+}
+
+.intro-chunk h1 {
+  margin-bottom: 32px;
+}
+
+.intro-chunk p {
+  max-width: 325px;
+}
+
+.card {
+  padding: 8px 16px;
+  background-color: white;
+}
+
+.indented-heading {
+  background-color: var(--light-gold);
+  width: fit-content;
+  margin-top: 0px;
+  margin-left: -32px;
+  padding: 8px 32px;
+  border-bottom: 8px solid var(--dark-gold)
+}
