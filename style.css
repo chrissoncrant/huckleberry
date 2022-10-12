@@ -69,6 +69,7 @@ strong {
 .indented-heading {
   background-color: var(--light-gold);
   width: fit-content;
+  width: -moz-fit-content;
   margin-top: 0px;
   margin-left: -32px;
   padding: 8px 32px;
