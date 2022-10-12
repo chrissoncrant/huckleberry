@@ -53,8 +53,9 @@ strong {
   padding: 48px 16px 32px;
 }
 
-.intro-chunk h1 {
+.title {
   margin-bottom: 32px;
+  word-wrap: break-word;
 }
 
 .intro-chunk p {
