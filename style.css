@@ -15,6 +15,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+html {
+  font-size: 1.125rem;
+}
+
 html,
 body {
   margin: 0;
